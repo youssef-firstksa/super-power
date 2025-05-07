@@ -1,0 +1,10 @@
+Settings (key, value)
+    - logo => url
+    - title => value
+    - favicon => url
+Hero Section
+Brands
+Faq
+Pricing
+Banner
+Footer
