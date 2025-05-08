@@ -80,7 +80,7 @@
                                         <ul id="menu-main-menu-1" class="menu">
                                             <li
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-612 current_page_item menu-item-2149 ts-normal-menu">
-                                                <a href="index.html">
+                                                <a href="{{route('home')}}">
                                                     <span class="menu-label">{{__('cms.home')}}</span>
                                                 </a>
                                             </li>
@@ -102,7 +102,7 @@
 @endphp
 
                                                 <li
-                                                    class="{{$classes}}">
+                                                    class="{{$classes}}" style="{{app()->getLocale() == 'ar' ? 'margin-left: 30px;' : 'margin-right: 30px;'}}">
 
                                                     <a href="{{ route('pages.index', $navigationLink->slug) }}">
                                                         <span class="menu-label"> {{ $navigationLink->label }}</span>
